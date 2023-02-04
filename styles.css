@@ -1,0 +1,20 @@
+/* CSS Validate is turned off in VSCode settings */
+
+Screen {
+    layout: grid;
+    grid-size: 3 2;
+    grid-rows: 3 1fr;
+}
+
+ApplicationHeader {
+    dock: top;
+    content-align: center top;
+    background: $primary;
+}
+
+PanelTitle {
+    height: 100%;
+    color: $secondary;
+    content-align: center middle;
+    border: solid gray;
+}
